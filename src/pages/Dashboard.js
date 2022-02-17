@@ -67,12 +67,12 @@ import {
 function Dashboard() {
     return (
         <div>
-            <div className="grid grid-cols-12">
-                <div className="col-span-2 hidden md:block ">
+            <div className="flex gap-5">
+                <div className=" hidden md:block">
                     <SideNAv/>
 
                 </div>
-                <div className=" col-span-12 md:col-span-10 ">
+                <div className=" w-full ml-0 md:ml-40 lg:ml-52 relative ">
                     <Header/>
                     <PageHeader title="Machine Status" />
                     <hr className="border-2 border-primary-0"/>
@@ -413,6 +413,9 @@ function Dashboard() {
 
                     </div>
                 </div>
+            </div>
+            <div className="absolute bottom-0 w-full">
+
                 <Footer/>
             </div>
 

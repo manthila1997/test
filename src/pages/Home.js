@@ -10,12 +10,12 @@ import SideNAv from '../components/molecules/SideNAv'
 function Home() {
     return (
         <div>
-            <div className="grid grid-cols-12">
-                <div className="col-span-2 hidden md:block">
+            <div className="flex gap-5">
+                <div className=" hidden md:block">
                     <SideNAv/>
 
                 </div>
-                <div className="col-span-12 md:col-span-10 relative ">
+                <div className="ml-0 md:ml-40 lg:ml-52 relative ">
 
                     <Header/>
                     <div>
